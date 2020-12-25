@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   color: #6c757d;
   background-color: #f8f9fa;
 }
@@ -30,14 +30,14 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   font-weight: 450;
   font-size: 1.5rem;
   line-height: 1.2;
   color: #A99D93;
 }
 .masthead-full-name {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   text-transform: uppercase;
   font-size: 2.75rem;
 }
@@ -46,7 +46,7 @@ header.masthead {
 }
 @media (max-width: 576px) {
   .masthead-full-name {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
   }
@@ -75,7 +75,7 @@ header.masthead {
 }
 
 .subheading {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2rem;
@@ -83,7 +83,7 @@ header.masthead {
 
 .cv-titles {
   margin-bottom: 0.5rem;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   font-weight: 450;
   line-height: 1.2;
   color: #343a40;
@@ -326,7 +326,7 @@ header.masthead {
   color: #DDC0C7;
   font-weight: 700;
   letter-spacing: 0.0625em;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
