@@ -27,8 +27,13 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html">About</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./cv.html" target="_blank">CV</a></li>
-                    </ul>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./cv.html" target="_blank">CV</a></li
+                        >
+                        <li class="nav-item"><a
+                        class="nav-link js-scroll-trigger"
+                        href="https://medium.com/@joanna.james.parks"
+                        target="_blank">My Medium Blog</a></li>
+                     </ul>
                 </div>
             </div>
         </nav>
@@ -49,12 +54,39 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="./cv.html" target="_blank">View my CV</a>
             </div>
         </header>
+        <CENTER>
+<FORM NAME="marquee1">
+<INPUT NAME="text" SIZE=25
+VALUE=" Welcome to my webpage! let me know if you have any questions. Did you know a flock of vultures is called a comittee?""
+>
+</FORM>
+</CENTER>
+<SCRIPT>
+<!--
+/*Text box marquee by Dave Methvin,
+Windows Magazine
+May be used/modified if credit line is
+retained*/
+ScrollSpeed = 100
+ScrollChars = 1
+function ScrollMarquee() {
+window.setTimeout('ScrollMarquee()',ScrollSpeed);
+
+var msg = document.marquee1.text.value;
+document.marquee1.text.value =
+msg.substring(ScrollChars) +
+msg.substring(0,ScrollChars);
+}
+ScrollMarquee()
+//-->
+</SCRIPT>
         <!-- Portfolio Grid-->
         <section class="page-section" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
                     <h3 class="section-subheading text-muted font-italic">Here's a peek of some projects I've worked on:</h3>
+                    
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
